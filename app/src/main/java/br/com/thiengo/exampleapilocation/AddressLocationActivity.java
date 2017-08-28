@@ -102,11 +102,11 @@ public class AddressLocationActivity extends ActionBarActivity
             String address = null;
 
             if(view.getId() == R.id.bt_name_to_coord){
-                type = 1;
+                type = 1;//
                 address = etAddress.getText().toString();
             }
             else{
-                type = 2;
+                type = 2;//
             }
 
             callIntentService(type, address);
